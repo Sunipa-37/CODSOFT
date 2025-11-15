@@ -209,7 +209,7 @@ def update_cont(J):
 
     #new dialouge box
     update= customtkinter.CTkToplevel()
-    update.title("Add New Contact")
+    update.title("Edit Contact")
     update.geometry("400x300")
     update.grab_set()  # main window ke lock kore, ei popup ke active rakhe
 
