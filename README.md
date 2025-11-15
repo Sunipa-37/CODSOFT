@@ -135,9 +135,9 @@ python filename.py
 
 # 📬 **Contact**
 
-* **Email:** *your-email-here*
-* **LinkedIn:** *your-linkedin-url*
-* **GitHub:** *your-github-url*
+* **Email:** sunipabose37@gmail.com
+* **LinkedIn:** www.linkedin.com/in/sunipa-bose-ba153726a
+  
 
 ---
 
