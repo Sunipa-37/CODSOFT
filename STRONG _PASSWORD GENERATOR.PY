@@ -35,7 +35,7 @@ def generate_password():
     for i in range(0,n):
         random.shuffle(password)
     password =''.join(password)
-    output_label.configure(text=f"generated number:\n {password}")
+    output_label.configure(text=f"generated password:\n {password}")
 
     
 screen=ctk.CTk()
