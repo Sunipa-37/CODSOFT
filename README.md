@@ -68,6 +68,7 @@ A functional Contact Manager built with **CustomTkinter** and **JSON-based stora
 <img width="863" height="693" alt="image" src="https://github.com/user-attachments/assets/4b6b4472-0b5e-4db6-9018-0c8348c6efc7" />
 <img width="641" height="532" alt="image" src="https://github.com/user-attachments/assets/d1807706-0cb9-4c5a-a0fe-81f0cc366c7d" />
 <img width="1919" height="1019" alt="image" src="https://github.com/user-attachments/assets/9920979a-cc58-4f9c-9e15-15f3b6ef25dd" />
+<img width="701" height="525" alt="image" src="https://github.com/user-attachments/assets/5575462b-3753-4032-8b3b-91c1c58957ba" />
 
 
 
