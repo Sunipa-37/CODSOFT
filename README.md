@@ -21,6 +21,10 @@ A minimal and responsive GUI-based To-Do manager built using **CustomTkinter**.
 
 ### **📸 Output Screenshot**
 
+<img width="1565" height="995" alt="image" src="https://github.com/user-attachments/assets/07bf4c99-666d-4a56-9acb-87c490043046" />
+<img width="1559" height="969" alt="image" src="https://github.com/user-attachments/assets/b6f0efe5-c7a3-4351-b083-df77742af176" />
+<img width="1561" height="993" alt="image" src="https://github.com/user-attachments/assets/b7466fd5-e785-4708-815a-44ade5dadb19" />
+
 
 ---
 
@@ -38,9 +42,9 @@ A simple password generator with a minimal GUI using **CustomTkinter** and **ran
 
 ### **📸 Output Screenshot**
 
-<img width="746" height="786" alt="image" src="https://github.com/user-attachments/assets/4e4a68fb-0517-4ec9-a278-c33b1f4c406a" />
-<img width="746" height="785" alt="image" src="https://github.com/user-attachments/assets/d755a54c-5844-490e-b4cd-540ef78e3b93" />
-
+<img width="753" height="790" alt="image" src="https://github.com/user-attachments/assets/eeae8906-ea37-4b45-b4af-6126ca02ebda" />
+<img width="749" height="783" alt="image" src="https://github.com/user-attachments/assets/ab1a5e5b-e73a-49bd-a5fa-895046028ecf" />
+<img width="756" height="787" alt="image" src="https://github.com/user-attachments/assets/54d70528-45cf-461f-b1b3-5f9d9dcccbdd" />
 
 ---
 
@@ -58,6 +62,15 @@ A functional Contact Manager built with **CustomTkinter** and **JSON-based stora
 * JSON file handling for storing contact info
 
 ### **📸 Output Screenshot**
+
+<img width="1919" height="1015" alt="image" src="https://github.com/user-attachments/assets/1a6fe3bb-979e-463d-adb2-3fafdbfd6eb5" />
+<img width="463" height="439" alt="image" src="https://github.com/user-attachments/assets/80a44226-7eb1-4a5b-a10a-ea004c6f55a7" />
+<img width="863" height="693" alt="image" src="https://github.com/user-attachments/assets/4b6b4472-0b5e-4db6-9018-0c8348c6efc7" />
+<img width="641" height="532" alt="image" src="https://github.com/user-attachments/assets/d1807706-0cb9-4c5a-a0fe-81f0cc366c7d" />
+<img width="1919" height="1019" alt="image" src="https://github.com/user-attachments/assets/9920979a-cc58-4f9c-9e15-15f3b6ef25dd" />
+
+
+
 
 
 # 🛠️ **Tech Stack Used**
