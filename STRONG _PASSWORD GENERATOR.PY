@@ -37,17 +37,10 @@ def generate_password():
     password =''.join(password)
     output_label.configure(text=f"generated number:\n {password}")
 
-
-
-
-
-
-
-
-
     
 screen=ctk.CTk()
 screen.geometry("600x600")
+screen.title("STRONG PASSWORD")
 heading_label=ctk.CTkLabel(screen,text="Strong Password Generator",font=("verdana",30),text_color="#AECCE4",anchor="center",height=40, width=120,fg_color="transparent")
 heading_label.pack(padx=50,pady=50)
 canvas=ctk.CTkCanvas(screen,height=600,width=500)
