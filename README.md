@@ -42,9 +42,9 @@ A simple password generator with a minimal GUI using **CustomTkinter** and **ran
 
 ### **📸 Output Screenshot**
 
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/eeae8906-ea37-4b45-b4af-6126ca02ebda" />
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/ab1a5e5b-e73a-49bd-a5fa-895046028ecf" />
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/54d70528-45cf-461f-b1b3-5f9d9dcccbdd" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/eeae8906-ea37-4b45-b4af-6126ca02ebda" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/ab1a5e5b-e73a-49bd-a5fa-895046028ecf" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/54d70528-45cf-461f-b1b3-5f9d9dcccbdd" />
 
 ---
 
@@ -63,12 +63,12 @@ A functional Contact Manager built with **CustomTkinter** and **JSON-based stora
 
 ### **📸 Output Screenshot**
 
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/1a6fe3bb-979e-463d-adb2-3fafdbfd6eb5" />
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/80a44226-7eb1-4a5b-a10a-ea004c6f55a7" />
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/4b6b4472-0b5e-4db6-9018-0c8348c6efc7" />
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/d1807706-0cb9-4c5a-a0fe-81f0cc366c7d" />
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/9920979a-cc58-4f9c-9e15-15f3b6ef25dd" />
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/5575462b-3753-4032-8b3b-91c1c58957ba" />
+<img width='300" height="300" alt="image" src="https://github.com/user-attachments/assets/1a6fe3bb-979e-463d-adb2-3fafdbfd6eb5" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/80a44226-7eb1-4a5b-a10a-ea004c6f55a7" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/4b6b4472-0b5e-4db6-9018-0c8348c6efc7" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/d1807706-0cb9-4c5a-a0fe-81f0cc366c7d" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/9920979a-cc58-4f9c-9e15-15f3b6ef25dd" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/5575462b-3753-4032-8b3b-91c1c58957ba" />
 
 
 
