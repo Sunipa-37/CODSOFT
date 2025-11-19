@@ -4,46 +4,82 @@ import random
 import re
 from tkinter import messagebox
 
+
 def search_contact():
-    search_input =search_entry.get().lower().strip()
-    if len(search_input)==0:
+    global r
+
+    search_input = search_entry.get().strip().lower()
+
+    # If empty → show all
+    if not search_input:
         view()
         return
-    try :
-        with open ("contacts.json","r")as file:
-            contact_lists=json.load(file)
+
+    # Load contacts
+    try:
+        with open("contacts.json", "r") as file:
+            contact_lists = json.load(file)
     except (FileNotFoundError, json.JSONDecodeError):
         messagebox.showwarning("WARNING:", "Some Issue Occured!")
-        contact_lists=[]
-    search_list=[]
+        contact_lists = []
+
+    # Case-insensitive matching
+    search_list = []
     for c in contact_lists:
-        if search_input in c["name"].lower() or search_input in c["phone"] or search_input in c["email"].lower() or search_input in c["address"].lower():
+        name = c["name"].lower()
+        phone = c["phone"].lower()
+        email = c["email"].lower()
+        address = c["address"].lower()
+
+        if (search_input in name or 
+            search_input in phone or 
+            search_input in email or 
+            search_input in address):
             search_list.append(c)
-    global r
+
+    # Clear frame first
     for widget in scroll_frame.winfo_children():
         widget.destroy()
 
     r = 0
 
+    # If nothing found
     if len(search_list) == 0:
-        messagebox.showinfo("NOT FOUND","No Matching contact Found")
+        messagebox.showinfo("NOT FOUND", "No Matching Contact Found")
         view()
         return
 
+    # Display filtered contacts
     for contact in search_list:
         cview = customtkinter.CTkFrame(scroll_frame, corner_radius=10)
         cview.grid(row=r, column=0, padx=20, pady=10, sticky="ew", columnspan=7)
 
-        customtkinter.CTkLabel(cview, text=f"👤 {contact['name']}", font=("verdana",20)).grid(row=0,column=0,padx=30,sticky="w")
-        customtkinter.CTkLabel(cview, text=f"📞 {contact['phone']}", font=("verdana",12)).grid(row=1,column=0,padx=30,sticky="w")
-        customtkinter.CTkLabel(cview, text=f"✉️ {contact['email']}", font=("verdana",12)).grid(row=2,column=0,padx=30,sticky="w")
-        customtkinter.CTkLabel(cview, text=f"🏠 {contact['address']}", font=("verdana",12)).grid(row=3,column=0,padx=30,sticky="w")
+        customtkinter.CTkLabel(
+            cview, text=f"👤 {contact['name']}", font=("verdana", 20)
+        ).grid(row=0, column=0, padx=30, sticky="w")
 
-        # buttons
-        customtkinter.CTkButton(cview, text="Edit", command=lambda j=contact["id"]: update_cont(j)).grid(row=1,column=5,pady=5)
-        customtkinter.CTkButton(cview, text="Delete", command=lambda j=contact["id"]: delete_cont(j)).grid(row=2,column=5,pady=5)
+        customtkinter.CTkLabel(
+            cview, text=f"📞 {contact['phone']}", font=("verdana", 12)
+        ).grid(row=1, column=0, padx=30, sticky="w")
 
-        r += 4
+        customtkinter.CTkLabel(
+            cview, text=f"✉️ {contact['email']}", font=("verdana", 12)
+        ).grid(row=2, column=0, padx=30, sticky="w")
+
+        customtkinter.CTkLabel(
+            cview, text=f"🏠 {contact['address']}", font=("verdana", 12)
+        ).grid(row=3, column=0, padx=30, sticky="w")
+
+        # Buttons
+        customtkinter.CTkButton(
+            cview, text="Edit", command=lambda j=contact["id"]: update_cont(j)
+        ).grid(row=1, column=5, pady=5)
+
+        customtkinter.CTkButton(
+            cview, text="Delete", command=lambda j=contact["id"]: delete_cont(j)
+        ).grid(row=2, column=5, pady=5)
+
+        r += 3
 
 
 def add_contact():
@@ -253,7 +289,7 @@ def view():
         label_view_error=customtkinter.CTkLabel(scroll_frame,text="warning : some issue occured")
         label_view_error.grid(row=0,column=1)
         contacts=[]
-    contact_sorted=sorted(contacts, key=lambda x: x["name"])  
+    contact_sorted=sorted(contacts, key=lambda x: x["name"].lower())  
     id_list=[item["id"] for item in contact_sorted]
     name_list=[item["name"] for item in contact_sorted]
     phone_list=[item["phone"]for item in contact_sorted]
